@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="33275fba-a2b4-453e-be45-cc85d9d4bc79" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:60770/HeroesService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="HeroesService.xsd" MetadataType="Schema" ID="c58ba13b-5d78-4550-818a-34bb8b374dca" SourceId="1" SourceUrl="http://localhost:60770/HeroesService.svc?xsd=xsd2" />
+    <MetadataFile FileName="HeroesService.wsdl" MetadataType="Wsdl" ID="56913112-af59-401d-9e1b-2087f2834ba6" SourceId="1" SourceUrl="http://localhost:60770/HeroesService.svc?wsdl" />
+    <MetadataFile FileName="HeroesService.disco" MetadataType="Disco" ID="5a428161-bd38-4186-9102-35a90478aed3" SourceId="1" SourceUrl="http://localhost:60770/HeroesService.svc?disco" />
+    <MetadataFile FileName="HeroesService1.xsd" MetadataType="Schema" ID="bc7cc34d-e67e-41c7-83b9-ca3fb4e9cd7c" SourceId="1" SourceUrl="http://localhost:60770/HeroesService.svc?xsd=xsd0" />
+    <MetadataFile FileName="HeroesService2.xsd" MetadataType="Schema" ID="688097e5-6cb2-4410-9378-9cc757c558ab" SourceId="1" SourceUrl="http://localhost:60770/HeroesService.svc?xsd=xsd1" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

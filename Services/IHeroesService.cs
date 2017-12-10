@@ -9,15 +9,27 @@ namespace Services
 {
     // NOTE: You can use the "Rename" command on the "Refactor" menu to change the interface name "IService1" in both code and config file together.
     [ServiceContract]
-    public interface IService1
+    public interface IHeroesService
     {
         [OperationContract]
-        string GetData(int value);
+        string GetHeroSchool(string arena);
 
         [OperationContract]
-        CompositeType GetDataUsingDataContract(CompositeType composite);
+        Hero GetHero(Work work);
 
         // TODO: Add your service operations here
+    }
+
+    public class Hero
+    {
+        public string Name { get; set; }
+        public string arena { get; set; }
+    }
+
+    public class Work
+    {
+        public string Category { get; set; }
+        public int Worth { get; set; }
     }
 
     // Use a data contract as illustrated in the sample below to add composite types to service operations.
